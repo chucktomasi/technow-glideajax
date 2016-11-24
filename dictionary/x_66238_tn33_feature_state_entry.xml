@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Feature state entry" max_length="40" name="x_66238_tn33_feature_state_entry" type="collection">
+        <element label="Map" max_length="32" name="map" reference="x_66238_tn33_feature_state_map" type="reference"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="1" choice_field="state" choice_table="x_66238_tn33_feature" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="map"/>
+        </index>
+    </element>
+</database>

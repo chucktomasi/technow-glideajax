@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Feature state map" max_length="40" name="x_66238_tn33_feature_state_map" type="collection">
+        <element choice="1" choice_field="state" choice_table="x_66238_tn33_feature" display="true" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

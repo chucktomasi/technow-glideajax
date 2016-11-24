@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="TechNow">8d01ef85dbd722002e38711ebf9619aa</application>
+        <filter/>
+        <name>Feature state maps</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_66238_tn33_feature_state_map_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-24 20:46:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8cd0d2167132200ca735bb557415a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Feature state maps</sys_name>
+        <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
+        <sys_update_name>sys_ui_module_d8cd0d2167132200ca735bb557415a4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-24 20:46:13</sys_updated_on>
+        <table>x_66238_tn33_feature_state_map</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
