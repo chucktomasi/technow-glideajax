@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Feature" max_length="40" name="x_66238_tn33_feature" sizeclass="3" type="collection"/>
+</database>

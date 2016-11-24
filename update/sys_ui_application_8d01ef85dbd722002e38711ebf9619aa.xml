@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>TechNow</name>
+        <order/>
+        <roles>x_66238_tn33_feature.user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-23 18:12:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d01ef85dbd722002e38711ebf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TechNow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
+        <sys_update_name>sys_ui_application_8d01ef85dbd722002e38711ebf9619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-23 18:12:38</sys_updated_on>
+    </sys_ui_application>
+</record_update>
