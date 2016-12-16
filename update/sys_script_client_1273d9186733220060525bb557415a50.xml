@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Get the state values appropriate for this current state</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Get State Values</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	var stateVal = g_form.getValue('state');
+	var ga = new GlideAjax('StateMapper');
+	ga.addParam('sysparm_name', 'getStates');
+	ga.addParam('sysparm_stateVal', stateVal);
+	ga.getXMLAnswer(stateCallback);
+	
+	function stateCallback(answer) {
+		// alert('answer=' + answer);
+		var objList = JSON.parse(answer);
+		var selected = 0;
+		
+ 		g_form.clearOptions('state');
+ 		for (var i = 0; i < objList.length; i++) {
+			var obj = objList[i];
+ 			g_form.addOption('state', obj.value, obj.label);
+ 			if (obj.selected) {
+				selected = i;
+			}
+ 		}
+		g_form.setValue('state', objList[selected].value, objList[selected].label);
+		
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-15 20:34:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1273d9186733220060525bb557415a50</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get State Values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
+        <sys_update_name>sys_script_client_1273d9186733220060525bb557415a50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-16 19:19:38</sys_updated_on>
+        <table>x_66238_tn33_feature</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

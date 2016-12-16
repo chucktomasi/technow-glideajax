@@ -20,7 +20,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-24 20:01:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cf7389eddb5f22002e38711ebf96191d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1,003</sys_name>

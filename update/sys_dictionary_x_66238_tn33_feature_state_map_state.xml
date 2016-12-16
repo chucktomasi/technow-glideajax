@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="state" table="x_66238_tn33_feature_state_map">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -51,17 +52,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-24 20:46:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>5d65092167132200ca735bb557415ad5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cdc009906733220060525bb557415a0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>State</sys_name>
         <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
         <sys_update_name>sys_dictionary_x_66238_tn33_feature_state_map_state</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-24 21:05:42</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-12-15 19:08:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

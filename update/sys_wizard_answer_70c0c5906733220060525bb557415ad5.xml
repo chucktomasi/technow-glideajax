@@ -14,19 +14,19 @@
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-11-24 20:02:46</sys_created_on>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2016-12-15 19:08:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c8d3452167132200ca735bb557415aa9</sys_id>
+        <sys_id>70c0c5906733220060525bb557415ad5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Feature</sys_name>
         <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
-        <sys_update_name>sys_wizard_answer_c8d3452167132200ca735bb557415aa9</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-24 20:02:46</sys_updated_on>
+        <sys_update_name>sys_wizard_answer_70c0c5906733220060525bb557415ad5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-12-15 19:08:26</sys_updated_on>
         <table/>
         <target_url>x_66238_tn33_feature.do</target_url>
         <type>1</type>

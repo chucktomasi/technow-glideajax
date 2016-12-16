@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-24 20:46:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>44cd092167132200ca735bb557415ad7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_66238_tn33_feature_state_map_user</sys_name>

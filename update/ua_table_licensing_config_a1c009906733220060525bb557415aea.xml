@@ -2,22 +2,28 @@
 <record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
         <name>x_66238_tn33_feature_state_entry</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
         <owner_condition table="x_66238_tn33_feature_state_entry">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-24 20:47:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>ca0e4d2167132200ca735bb557415a41</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a1c009906733220060525bb557415aea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_66238_tn33_feature_state_entry</sys_name>
         <sys_package display_value="tn33" source="x_66238_tn33">38fb7e68db5322002e38711ebf9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="tn33">38fb7e68db5322002e38711ebf9619ac</sys_scope>
-        <sys_update_name>ua_table_licensing_config_ca0e4d2167132200ca735bb557415a41</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a1c009906733220060525bb557415aea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-11-24 20:47:25</sys_updated_on>
     </ua_table_licensing_config>

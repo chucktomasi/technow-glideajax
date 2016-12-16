@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-24 20:47:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b10e4d2167132200ca735bb557415a33</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_66238_tn33_feature_state_entry.x_66238_tn33_feature_state_entry_user</sys_name>
